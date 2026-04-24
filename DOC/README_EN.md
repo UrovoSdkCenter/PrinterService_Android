@@ -2,6 +2,10 @@
 
 PrinterService is a print service application based on the Android standard print framework, supporting built-in printers and Bluetooth printers, providing print capabilities for web pages, applications, and other scenarios.
 
+## Version Differentiation
+1. `MORE`: Supports page-rendering paper size selection, suitable for situations where the webpage does not change and the print service adapts.
+2. `A5`: Page is fixed at A5 size, webpage can be adapted, avoiding users switching page size selection.
+
 ## Features
 
 - **Built-in Printer Support**: Support for POS built-in thermal/label printers
